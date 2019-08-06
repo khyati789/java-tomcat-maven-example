@@ -7,6 +7,12 @@
   <version>1.0-SNAPSHOT</version>
   <name>hello Maven Webapp</name>
   <url>http://maven.apache.org</url>
+   <distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>cs83-pc-snapshots</name>
+        <url>http://localhost:8082/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
