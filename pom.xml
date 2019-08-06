@@ -8,7 +8,12 @@
   <name>hello Maven Webapp</name>
   <url>http://maven.apache.org</url>
   
-   
+   <pluginRepositories>
+    <pluginRepository>
+      <id>Maven-Artifactory-Plugin</id>
+      <url>https://jcenter.bintray.com</url>
+    </pluginRepository>
+  </pluginRepositories> 
   
    <distributionManagement>
     <snapshotRepository>
